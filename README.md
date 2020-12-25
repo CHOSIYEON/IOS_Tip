@@ -2,4 +2,4 @@
 
 ### [Lottie Animation]
 
-[Lottie Animation] (Tips/Lottie-Animation.md)
+[Lottie Animation](Tips/Lottie-Animation.md)
