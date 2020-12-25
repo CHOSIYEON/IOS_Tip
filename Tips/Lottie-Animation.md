@@ -1,6 +1,4 @@
-# IOS_Tip
-
-### [Lottie Animation]
+# [Lottie Animation]
 
 ```bash
 // Cocoapod 설치
