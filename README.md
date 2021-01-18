@@ -31,3 +31,9 @@ let reversedNames = names.sorted {(s1: String, s2: String) -> Bool in
 }
 ```
 
+
+
+#### 아무데나 터치해서 키보드 숨기기
+
+https://kaushalelsewhere.medium.com/how-to-dismiss-keyboard-in-a-view-controller-of-ios-3b1bfe973ad1
+
