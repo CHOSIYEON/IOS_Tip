@@ -2,6 +2,8 @@
 
 [Lottie Animation](Tips/Lottie-Animation.md)
 
+[Notification](Tips/Notification.md)
+
 #### Closure
 
 ```swift
