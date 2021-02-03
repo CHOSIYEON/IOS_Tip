@@ -4,6 +4,8 @@
 
 [Notification](Tips/Notification.md)
 
+<br>
+
 #### Closure
 
 ```swift
@@ -33,7 +35,7 @@ let reversedNames = names.sorted {(s1: String, s2: String) -> Bool in
 }
 ```
 
-
+<br>
 
 #### 아무데나 터치해서 키보드 숨기기
 
@@ -41,11 +43,15 @@ https://kaushalelsewhere.medium.com/how-to-dismiss-keyboard-in-a-view-controller
 
 
 
+<br>
+
 #### Navigation controller 에 값 전달하기
 
 http://blog.naver.com/PostView.nhn?blogId=traeumen927&logNo=222010583912
 
 
+
+<br>
 
 #### ViewWillAppear
 
@@ -62,6 +68,8 @@ https://medium.com/better-programming/the-lifecycle-and-control-when-dismissing-
 https://zeddios.tistory.com/828?category=682195
 
 
+
+<br>
 
 #### Delegate 를 이용해 ViewController간 값 전달
 
@@ -106,3 +114,16 @@ sendVC에서 데이터를 보내고, receiveVC 에서 받으려면
   ```
 
   
+
+<br>
+
+#### TableView에서 표시된 Cell 이외의 잉여 Separator line 없애기
+
+```swift
+extension UITableView {
+    func removeExtraLine() {
+        tableFooterView = UIView(frame: .zero)
+    }
+}
+```
+
